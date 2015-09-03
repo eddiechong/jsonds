@@ -13,10 +13,68 @@ DECLARE
 	v_std json;
 	v_main json;
 	v_extd json;
+
+	v_mktd json;
+	v_kspt json;
+	v_witb json;
+	v_pfts json;
+	
 	v_total json;
 	v_start_time timestamp := now();
 Begin
 	raise notice 'starting process ... %', v_start_time;
+
+	Begin
+		--building marketing text
+		select json_build_object('ccs-marketing-text', 
+			json_build_object('mkt', 
+			json_build_object('name', 'Marketing Text', 
+			'lines', json_agg(dat)))) into v_mktd
+		from
+			(SELECT cast(unnest(xpath('/body/text()', content)) as text) as dat
+			FROM   cds_digcontent_data c
+			inner join cds_digcontent_links l on c.contentguid = lower(l.contentguid)
+			where prodid = pid and mediatypeid = 4) k;
+	End;
+
+	Begin
+		--building key selling point
+		select json_build_object('ccs-ksp-features', 
+			json_build_object('ksp', 
+				json_build_object('name', 'Key Selling Points', 
+				'lines', json_agg(dat)))) into v_kspt
+		from
+			(SELECT cast(unnest(xpath('/body/ul/li/text()', content)) as text) as dat
+			FROM   cds_digcontent_data c
+			inner join cds_digcontent_links l on c.contentguid = lower(l.contentguid)
+			where l.prodid= pid and mediatypeid = 5) k;
+	End;
+
+	Begin
+		--building what's in the box
+		select json_build_object('ccs-whats-in-the-box', 
+			json_build_object('wib', 
+				json_build_object('name', 'Whats in the Box', 
+				'lines', json_agg(dat)))) into v_witb
+		from
+			(SELECT cast(unnest(xpath('/body/ul/li/text()', content)) as text) as dat
+			FROM   cds_digcontent_data c
+			inner join cds_digcontent_links l on c.contentguid = lower(l.contentguid)
+			where prodid= pid  and mediatypeid = 10) k;
+	End;
+		
+	Begin
+		--building product features
+		select json_build_object('ccs-product-features', 
+			json_build_object('pft', 
+				json_build_object('name', 'Product Features', 
+				'lines', json_agg(dat)))) into v_pfts
+		from
+			(SELECT cast(unnest(xpath('/body/ul/li/strong/text()', content)) as text) as dat
+			FROM   cds_digcontent_data c
+			inner join cds_digcontent_links l on c.contentguid = lower(l.contentguid)
+			where l.prodid= pid and mediatypeid = 14) k;
+	End;
 
 	Begin
 		--building specs
@@ -62,14 +120,18 @@ Begin
 
 		--raise notice 'ext specs ... %', v_extd;
 	End;
-
 	
-
-	select json_append(v_std, v_main) into v_total;
+	--note: should only add them if not empty ...
+	select json_append(v_total, v_std) into v_total;
+	
+	select json_append(v_total, v_mktd) into v_total;
+	select json_append(v_total, v_kspt) into v_total;
+	select json_append(v_total, v_pfts) into v_total;
+	select json_append(v_total, v_witb) into v_total;
+	
+	select json_append(v_total, v_main) into v_total;
 	select json_append(v_total, v_extd) into v_total;
 	
 	return v_total;
 End;
 $$ LANGUAGE plpgsql;
- 
-select dsjson('S6458630');
