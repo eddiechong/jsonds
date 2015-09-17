@@ -12,9 +12,10 @@ Steps to enable DataSource API in PostGreSQL
 1) Create digital content (xml) content table - cds_digcontent_data.sql (schema folder)
 
 2) Create functions (functions folder)
-	a) json_append.sql (append json)
-	b) bytea_import.sql (needed to read XML from filesystem into DB)
-	c) dsjson.sql (main stored procedure for generating JSON fr DataSource)
+
+a) json_append.sql (append json)
+b) bytea_import.sql (needed to read XML from filesystem into DB)
+c) dsjson.sql (main stored procedure for generating JSON fr DataSource)
 
 3) Run the ContentConnector with option to download digital content 
 	Specifically these options must be set to true
@@ -27,10 +28,11 @@ Steps to enable DataSource API in PostGreSQL
 	<MediaType ID="14" Directory="PRODUCT_FEATURES" Description="Product features"/>	
 
 4) After the ContentConnector had finished downloading the required (XML) digital content above, these need to be imported into the "cds_digcontent_data" table. 
-	a) Log into postgres  		  # psql -U postgres_user -W -d databasename
-	b) Set output to file 		  # \o dc_import.sql
-	c) Remove header / footer 	# \pset tuples_only
-	d) Generate SQL into file for loading all required XML into the "cds_digcontent_data" table. Run the below SQL. It will generate SQL insert statements inserting the XML into the "cds_digcontent_data" table.
+
+a) Log into postgres  		  # psql -U postgres_user -W -d databasename
+b) Set output to file 		  # \o dc_import.sql
+c) Remove header / footer 	# \pset tuples_only
+d) Generate SQL into file for loading all required XML into the "cds_digcontent_data" table. Run the below SQL. It will generate SQL insert statements inserting the XML into the "cds_digcontent_data" table.
 
 
 	with dc_import as (
@@ -50,9 +52,8 @@ Steps to enable DataSource API in PostGreSQL
 	from dc_import;	
 
 
-	e) Inspect the file 	# head dc_import.sql
-	Should look something like the below:-
-
+e) Inspect the file 	# head dc_import.sql
+Should look something like the below:-
 
 insert into cds_digcontent_data (contentguid, mediatypeid, content) 
 	values  (
@@ -61,10 +62,9 @@ insert into cds_digcontent_data (contentguid, mediatypeid, content)
 		convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/F07F1FDD-A7E5-48AA-8C08-480A606C19CD.xml'), 'utf8')::xml
 		);
 
-
 	Try & run a couple of statements, make sure they run OK. Then remember to truncate the test data.
 
-	f) Import the digital content into the database # psql -U postgres_user -W -d databasename < dc_import.sql
+f) Import the digital content into the database # psql -U postgres_user -W -d databasename < dc_import.sql
 
 5) Run the "dsjson" function with a single parameter (product_id)
 	select dsjson('S11328480');
