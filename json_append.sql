@@ -1,5 +1,5 @@
+-- this is sourced from https://gist.github.com/matheusoliveira/9488951
 -- Function: json_append(json, json)
-
 -- DROP FUNCTION json_append(json, json);
 
 CREATE OR REPLACE FUNCTION json_append(data json, insert_data json)
