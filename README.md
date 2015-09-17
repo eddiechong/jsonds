@@ -30,13 +30,18 @@ Steps to enable DataSource API in PostGreSQL
 ```
 
 4. After the ContentConnector had finished downloading the required (XML) digital content above, these need to be imported into the "cds_digcontent_data" table. 
-
 	* Log into postgres  		  
 ```bash
 # psql -U postgres_user -W -d databasename
 ```
-	* Set output to file 		  # \o dc_import.sql
-	* Remove header / footer 	# \pset tuples_only
+	* Set output to file 		  
+```bash
+# \o dc_import.sql
+```
+	* Remove header / footer 	
+```bash
+# \pset tuples_only
+```
 	* Generate SQL into file for loading all required XML into the "cds_digcontent_data" table. Run the below SQL. It will generate SQL insert statements inserting the XML into the "cds_digcontent_data" table.
 
 ```sql
@@ -57,7 +62,7 @@ Steps to enable DataSource API in PostGreSQL
 	from dc_import;
 ```
 
-	* Inspect the file 	# head dc_import.sql
+	* Inspect the file 
 	Should look something like the below:-
 
 ```sql
@@ -73,6 +78,8 @@ insert into cds_digcontent_data (contentguid, mediatypeid, content)
 f) Import the digital content into the database # psql -U postgres_user -W -d databasename < dc_import.sql
 
 5) Run the "dsjson" function with a single parameter (product_id)
-	`select dsjson('S11328480');`
+```sql
+	select dsjson('S11328480');
+```
 
 An example of the output can be found in the /sample folder. This json had been pretty printed, but does not look that way right out of psql.
