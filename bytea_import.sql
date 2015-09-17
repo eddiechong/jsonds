@@ -1,5 +1,5 @@
+-- This function is sourced from https://gist.github.com/erochest/4340342
 -- Function: bytea_import(text)
-
 -- DROP FUNCTION bytea_import(text);
 
 CREATE OR REPLACE FUNCTION bytea_import(IN p_path text, OUT p_result bytea)
