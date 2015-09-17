@@ -31,7 +31,8 @@ Steps to enable DataSource API in PostGreSQL
 	b) Set output to file 		  # \o dc_import.sql
 	c) Remove header / footer 	# \pset tuples_only
 	d) Generate SQL into file for loading all required XML into the "cds_digcontent_data" table. Run the below SQL. It will generate SQL insert statements inserting the XML into the "cds_digcontent_data" table.
-----------------------------------------------------------------------------------------------
+
+
 	with dc_import as (
 		select distinct contentguid as contentguid, mediatypeid, 
 		('/path/to/connector/data/digitalcontent/folder' ||
@@ -47,19 +48,19 @@ Steps to enable DataSource API in PostGreSQL
 	Select 'insert into cds_digcontent_data (contentguid, mediatypeid, content) values  (''' || contentguid || ''',' || mediatypeid
 	|| ',convert_from(bytea_import(''' || xmlcontent || '''), ''utf8'')::xml);'
 	from dc_import;	
-----------------------------------------------------------------------------------------------	
-	
+
+
 	e) Inspect the file 	# head dc_import.sql
 	Should look something like the below:-
 
-----------------------------------------------------------------------------------------------
+
 insert into cds_digcontent_data (contentguid, mediatypeid, content) 
 	values  (
 		'F07F1FDD-A7E5-48AA-8C08-480A606C19CD',
 		4,
 		convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/F07F1FDD-A7E5-48AA-8C08-480A606C19CD.xml'), 'utf8')::xml
 		);
-----------------------------------------------------------------------------------------------
+
 
 	Try & run a couple of statements, make sure they run OK. Then remember to truncate the test data.
 
