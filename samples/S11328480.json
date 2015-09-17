@@ -1,0 +1,608 @@
+{
+   "ccs-tiled-gallery":{
+      "images":[
+         {
+            "full":"http://cdn.cnetcontent.com/c0/9d/c09d483f-3ffa-4e26-801e-0dcc1defe6ae.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/67/a6/67a62d75-2365-4f82-9247-86259f35f799.jpg",
+            "p75":"http://cdn.cnetcontent.com/b3/46/b3467a49-79f2-4413-8e32-49f6b073fefb.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/8d/df/8ddfe567-f0e7-431a-8294-4b9177bf28ff.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/e1/f2/e1f233d4-864d-4562-ab03-2076aef45a32.jpg",
+            "p75":"http://cdn.cnetcontent.com/74/b1/74b14471-40ad-46c6-b280-cbc77c4d448c.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/fe/2d/fe2d3f0c-540a-45ca-b7c0-9734ad9dcab0.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/dc/3f/dc3f3060-10e3-4100-95b8-e4f41720bfad.jpg",
+            "p75":"http://cdn.cnetcontent.com/8a/eb/8aebad0f-3127-4061-9856-6ac8b4c29756.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/f5/ad/f5ad79d3-adf4-4042-9100-6a69a8fd7414.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/34/01/3401cf59-b67a-4af4-beb5-29df536c2d83.jpg",
+            "p75":"http://cdn.cnetcontent.com/0e/fe/0efed4a6-7586-4081-8548-294c58389fd0.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/a2/d9/a2d9e7fb-437a-486e-bf07-0ef70688c4c4.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/d3/c5/d3c57c9f-d659-4775-9378-65f434df773e.jpg",
+            "p75":"http://cdn.cnetcontent.com/1f/2c/1f2c6d84-8396-40e9-8e52-23f325af74b6.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/ac/f2/acf25b81-431f-40fa-8b7c-365fa265950e.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/ba/61/ba613207-e456-4233-ad75-03ae37c2bea8.jpg",
+            "p75":"http://cdn.cnetcontent.com/bb/c5/bbc54509-ab38-4ecc-bb1f-4319b4041404.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/65/0f/650fe0ef-c441-4a8c-bfb7-49138e87b454.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/75/fb/75fb294c-bd9d-4b42-9b59-cf809595d19f.jpg",
+            "p75":"http://cdn.cnetcontent.com/da/ff/daffdb7c-67fc-4f4b-8f43-3767ad88d15f.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/15/54/1554f76a-df60-40d7-9717-f8dfc178b467.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/5f/cf/5fcf6e81-7c20-4745-80cb-3bdb3712dd6f.jpg",
+            "p75":"http://cdn.cnetcontent.com/cb/19/cb1975ce-8c81-4a83-b3a9-f871acfccb55.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/c1/96/c1963781-0789-4038-8de5-3316c485ce4a.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/53/bf/53bf4095-0280-42ef-aa5b-080a7ca6ecaa.jpg",
+            "p75":"http://cdn.cnetcontent.com/fa/09/fa099376-d042-4594-bbf3-d34d4b3d70d8.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/67/5d/675d386d-f339-4a7c-92d0-46436e8de3e7.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/f5/b9/f5b98896-f881-4049-9eb9-c8efa8a8c7ad.jpg",
+            "p75":"http://cdn.cnetcontent.com/04/0d/040dc21e-6752-4bfa-ae7a-7f209645f503.jpg"
+         }
+      ]
+   },
+   "ccs-gallery":{
+      "images":[
+         {
+            "full":"http://cdn.cnetcontent.com/c0/9d/c09d483f-3ffa-4e26-801e-0dcc1defe6ae.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/67/a6/67a62d75-2365-4f82-9247-86259f35f799.jpg",
+            "p75":"http://cdn.cnetcontent.com/b3/46/b3467a49-79f2-4413-8e32-49f6b073fefb.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/8d/df/8ddfe567-f0e7-431a-8294-4b9177bf28ff.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/e1/f2/e1f233d4-864d-4562-ab03-2076aef45a32.jpg",
+            "p75":"http://cdn.cnetcontent.com/74/b1/74b14471-40ad-46c6-b280-cbc77c4d448c.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/fe/2d/fe2d3f0c-540a-45ca-b7c0-9734ad9dcab0.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/dc/3f/dc3f3060-10e3-4100-95b8-e4f41720bfad.jpg",
+            "p75":"http://cdn.cnetcontent.com/8a/eb/8aebad0f-3127-4061-9856-6ac8b4c29756.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/f5/ad/f5ad79d3-adf4-4042-9100-6a69a8fd7414.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/34/01/3401cf59-b67a-4af4-beb5-29df536c2d83.jpg",
+            "p75":"http://cdn.cnetcontent.com/0e/fe/0efed4a6-7586-4081-8548-294c58389fd0.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/a2/d9/a2d9e7fb-437a-486e-bf07-0ef70688c4c4.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/d3/c5/d3c57c9f-d659-4775-9378-65f434df773e.jpg",
+            "p75":"http://cdn.cnetcontent.com/1f/2c/1f2c6d84-8396-40e9-8e52-23f325af74b6.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/ac/f2/acf25b81-431f-40fa-8b7c-365fa265950e.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/ba/61/ba613207-e456-4233-ad75-03ae37c2bea8.jpg",
+            "p75":"http://cdn.cnetcontent.com/bb/c5/bbc54509-ab38-4ecc-bb1f-4319b4041404.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/65/0f/650fe0ef-c441-4a8c-bfb7-49138e87b454.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/75/fb/75fb294c-bd9d-4b42-9b59-cf809595d19f.jpg",
+            "p75":"http://cdn.cnetcontent.com/da/ff/daffdb7c-67fc-4f4b-8f43-3767ad88d15f.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/15/54/1554f76a-df60-40d7-9717-f8dfc178b467.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/5f/cf/5fcf6e81-7c20-4745-80cb-3bdb3712dd6f.jpg",
+            "p75":"http://cdn.cnetcontent.com/cb/19/cb1975ce-8c81-4a83-b3a9-f871acfccb55.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/c1/96/c1963781-0789-4038-8de5-3316c485ce4a.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/53/bf/53bf4095-0280-42ef-aa5b-080a7ca6ecaa.jpg",
+            "p75":"http://cdn.cnetcontent.com/fa/09/fa099376-d042-4594-bbf3-d34d4b3d70d8.jpg"
+         },
+         {
+            "full":"http://cdn.cnetcontent.com/67/5d/675d386d-f339-4a7c-92d0-46436e8de3e7.jpg",
+            "w":400,
+            "h":300,
+            "s200":"http://cdn.cnetcontent.com/f5/b9/f5b98896-f881-4049-9eb9-c8efa8a8c7ad.jpg",
+            "p75":"http://cdn.cnetcontent.com/04/0d/040dc21e-6752-4bfa-ae7a-7f209645f503.jpg"
+         }
+      ]
+   },
+   "ccs-standard-image":{
+      "json_array_elements":{
+         "full":"http://cdn.cnetcontent.com/c0/9d/c09d483f-3ffa-4e26-801e-0dcc1defe6ae.jpg",
+         "w":400,
+         "h":300,
+         "s200":"http://cdn.cnetcontent.com/67/a6/67a62d75-2365-4f82-9247-86259f35f799.jpg",
+         "p75":"http://cdn.cnetcontent.com/b3/46/b3467a49-79f2-4413-8e32-49f6b073fefb.jpg"
+      }
+   },
+   "ccs-mkt-desc":{
+      "lines":[
+         "With a blazing-fast Intel Core i5 processor, the Samsung ATIV Smart PC Pro 700T runs the same programs as your desktop PC in a sleek, light and compact form. A fast and simple touch screen interface lets you access all your favorite programs and apps with ease. Because when you combine power and design, amazing things happen. Welcome to the Samsung ATIV Smart PC Pro 700T. The Samsung ATIV Smart PC Pro 700T is so easy and natural to use, it'll make you want to rediscover the PC experience."
+      ]
+   },
+   "ccs-in-the-box":{
+      "lines":[
+         "Samsung ATIV Smart PC Pro 700T",
+         "4 celdas batería",
+         "S Pen, transformador eléctrico",
+         "Samsung ATIV Smart PC Pro 700T",
+         "4-cell battery",
+         "S Pen, power adapter"
+      ]
+   },
+   "ccs-features":{
+      "items":[
+         {
+            "name":"It may look like a tablet, but the Samsung ATIV Smart PC Pro 700T packs a powerful PC punch",
+            "lines":"With a blazing-fast Intel Core i5 processor, the Samsung ATIV Smart PC Pro 700T runs the same programs as your desktop PC in a sleek, light and compact form. A fast and simple touch screen interface lets you access all your favorite programs and apps with ease. Because when you combine power and design, amazing things happen. Welcome to the Samsung ATIV Smart PC Pro 700T."
+         },
+         {
+            "name":"Use the simple touch screen interface to explore your favorite programs",
+            "lines":"The Samsung ATIV Smart PC Pro 700T is so easy and natural to use, it'll make you want to rediscover the PC experience."
+         },
+         {
+            "name":"Share apps and content across devices with the touch of a finger",
+            "lines":"Now you can connect your Samsung ATIV Smart PC Pro 700T with multiple compatible devices via the Internet. Use S manager to update and to download AllShare technology to share content with a Samsung Smart TV, smartphone or camera, stream music, movies and photos from your Samsung ATIV Smart PC Pro 700T to your Smart TV."
+         }
+      ]
+   },
+   "ccs-ksp-features":{
+      "features":{
+         "head":"Product Features",
+         "items":[
+            {
+               "name":"It may look like a tablet, but the Samsung ATIV Smart PC Pro 700T packs a powerful PC punch",
+               "lines":"With a blazing-fast Intel Core i5 processor, the Samsung ATIV Smart PC Pro 700T runs the same programs as your desktop PC in a sleek, light and compact form. A fast and simple touch screen interface lets you access all your favorite programs and apps with ease. Because when you combine power and design, amazing things happen. Welcome to the Samsung ATIV Smart PC Pro 700T."
+            },
+            {
+               "name":"Use the simple touch screen interface to explore your favorite programs",
+               "lines":"The Samsung ATIV Smart PC Pro 700T is so easy and natural to use, it'll make you want to rediscover the PC experience."
+            },
+            {
+               "name":"Share apps and content across devices with the touch of a finger",
+               "lines":"Now you can connect your Samsung ATIV Smart PC Pro 700T with multiple compatible devices via the Internet. Use S manager to update and to download AllShare technology to share content with a Samsung Smart TV, smartphone or camera, stream music, movies and photos from your Samsung ATIV Smart PC Pro 700T to your Smart TV."
+            }
+         ]
+      }
+   },
+   "ccs-mkt-ksp-features":{
+      "mktDesc":{
+         "name":"Marketing Description",
+         "lines":[
+            "With a blazing-fast Intel Core i5 processor, the Samsung ATIV Smart PC Pro 700T runs the same programs as your desktop PC in a sleek, light and compact form. A fast and simple touch screen interface lets you access all your favorite programs and apps with ease. Because when you combine power and design, amazing things happen. Welcome to the Samsung ATIV Smart PC Pro 700T. The Samsung ATIV Smart PC Pro 700T is so easy and natural to use, it'll make you want to rediscover the PC experience."
+         ]
+      },
+      "features":{
+         "head":"Product Features",
+         "items":[
+            {
+               "name":"It may look like a tablet, but the Samsung ATIV Smart PC Pro 700T packs a powerful PC punch",
+               "lines":"With a blazing-fast Intel Core i5 processor, the Samsung ATIV Smart PC Pro 700T runs the same programs as your desktop PC in a sleek, light and compact form. A fast and simple touch screen interface lets you access all your favorite programs and apps with ease. Because when you combine power and design, amazing things happen. Welcome to the Samsung ATIV Smart PC Pro 700T."
+            },
+            {
+               "name":"Use the simple touch screen interface to explore your favorite programs",
+               "lines":"The Samsung ATIV Smart PC Pro 700T is so easy and natural to use, it'll make you want to rediscover the PC experience."
+            },
+            {
+               "name":"Share apps and content across devices with the touch of a finger",
+               "lines":"Now you can connect your Samsung ATIV Smart PC Pro 700T with multiple compatible devices via the Internet. Use S manager to update and to download AllShare technology to share content with a Samsung Smart TV, smartphone or camera, stream music, movies and photos from your Samsung ATIV Smart PC Pro 700T to your Smart TV."
+            }
+         ]
+      }
+   },
+   "ccs-standard-desc":"Samsung ATIV Smart PC Pro 700T - Tablet - with keyboard dock - Core i5 3317U / 1.7 GHz - Windows 8 64-bit - 4 GB RAM - 128 GB SSD - 11.6\" touchscreen 1920 x 1080 ( Full HD ) - Intel HD Graphics 4000 - black",
+   "ccs-product-name":"Samsung ATIV Smart PC Pro 700T - Tablet - with keyboard dock - Core i5 3317U / 1.7 GHz - Windows 8 64-bit - 4 GB RAM - 128 GB SSD - 11.6\" touchscreen 1920 x 1080 ( Full HD ) - Intel HD Graphics 4000 - black",
+   "ccs-main-spec":{
+      "items":[
+         {
+            "name":"Product Description",
+            "lines":"Samsung ATIV Smart PC Pro 700T - 11.6\" - Core i5 3317U - Windows 8 64-bit - 4 GB RAM - 128 GB SSD"
+         },
+         {
+            "name":"Product Type",
+            "lines":"Tablet"
+         },
+         {
+            "name":"Mechanical Design",
+            "lines":"Keyboard dock"
+         },
+         {
+            "name":"Operating System",
+            "lines":"Windows 8 64-bit"
+         },
+         {
+            "name":"Processor",
+            "lines":"Intel Core i5 (3rd Gen) 3317U / 1.7 GHz ( 2.6 GHz ) / 3 MB Cache"
+         },
+         {
+            "name":"Memory",
+            "lines":"4 GB DDR3"
+         },
+         {
+            "name":"Storage",
+            "lines":"128 GB SSD"
+         },
+         {
+            "name":"Display",
+            "lines":"11.6\" LED backlight touchscreen 1920 x 1080 / Full HD"
+         },
+         {
+            "name":"Graphics",
+            "lines":"Intel HD Graphics 4000"
+         },
+         {
+            "name":"Networking",
+            "lines":"802.11n, Bluetooth 4.0"
+         },
+         {
+            "name":"Battery",
+            "lines":"4-cell"
+         },
+         {
+            "name":"Dockable",
+            "lines":"Yes"
+         },
+         {
+            "name":"Security",
+            "lines":"Trusted Platform Module (TPM 1.2) Security Chip"
+         },
+         {
+            "name":"Color",
+            "lines":"Black"
+         },
+         {
+            "name":"Dimensions (WxDxH)",
+            "lines":"12 in x 7.4 in x 0.5 in"
+         },
+         {
+            "name":"Weight",
+            "lines":"31.4 oz"
+         },
+         {
+            "name":"Microsoft Office Preloaded",
+            "lines":"Includes a pre-loaded image of select Microsoft Office 2010 suites. Purchase an Office 2010 Product Key Card or disc to activate preloaded software on this PC."
+         },
+         {
+            "name":"Manufacturer Warranty",
+            "lines":"1 year warranty"
+         }
+      ]
+   },
+   "ccs-ext-spec":{
+      "blocks":[
+         {
+            "head":"Communications",
+            "items":[
+               {
+                  "name":"Features",
+                  "lines":"Intel Wireless Display (WiDi)"
+               },
+               {
+                  "name":"Wireless",
+                  "lines":"802.11n, Bluetooth 4.0"
+               },
+               {
+                  "name":"Wireless Controller",
+                  "lines":"Intel Centrino Advanced-N 6235"
+               }
+            ]
+         },
+         {
+            "head":"Environmental Parameters",
+            "items":[
+               {
+                  "name":"Min Operating Temperature",
+                  "lines":"50 °F"
+               },
+               {
+                  "name":"Humidity Range Operating",
+                  "lines":"20 - 80%"
+               },
+               {
+                  "name":"Max Operating Temperature",
+                  "lines":"89.6 °F"
+               }
+            ]
+         },
+         {
+            "head":"Dimensions & Weight",
+            "items":[
+               {
+                  "name":"Depth",
+                  "lines":"7.4 in"
+               },
+               {
+                  "name":"Width",
+                  "lines":"12 in"
+               },
+               {
+                  "name":"Height",
+                  "lines":"0.5 in"
+               },
+               {
+                  "name":"Weight",
+                  "lines":"31.4 oz"
+               }
+            ]
+         },
+         {
+            "head":"Battery",
+            "items":[
+               {
+                  "name":"Capacity",
+                  "lines":"49 Wh"
+               },
+               {
+                  "name":"Technology",
+                  "lines":"4-cell lithium polymer"
+               }
+            ]
+         },
+         {
+            "head":"Storage",
+            "items":[
+               {
+                  "name":"Main Storage",
+                  "lines":"128 GB SSD"
+               },
+               {
+                  "name":"Interface",
+                  "lines":"SATA 3 Gb/s"
+               }
+            ]
+         },
+         {
+            "head":"Manufacturer Warranty",
+            "items":[
+               {
+                  "name":"Service & Support",
+                  "lines":"1 year warranty"
+               },
+               {
+                  "name":"Service & Support Details",
+                  "lines":"Limited warranty - parts and labor - 1 year"
+               }
+            ]
+         },
+         {
+            "head":"Audio & Video",
+            "items":[
+               {
+                  "name":"Memory Allocation Technology",
+                  "lines":"Dynamic Video Memory Technology"
+               },
+               {
+                  "name":"Compliant Standards",
+                  "lines":"SoundAlive"
+               },
+               {
+                  "name":"Camera",
+                  "lines":"Integrated webcam"
+               },
+               {
+                  "name":"Sound",
+                  "lines":"Stereo speakers , microphone"
+               },
+               {
+                  "name":"Graphics Processor",
+                  "lines":"Intel HD Graphics 4000"
+               },
+               {
+                  "name":"Resolution (MP)",
+                  "lines":"5 Megapixel (back), 2 Megapixel (front)"
+               }
+            ]
+         },
+         {
+            "head":"Connections & Expansion",
+            "items":[
+               {
+                  "name":"Memory Card Reader",
+                  "lines":"Yes ( microSD )"
+               },
+               {
+                  "name":"Interfaces",
+                  "lines":"Micro-HDMI ¦ Headphone/microphone combo jack ¦ USB 3.0 ¦ Dock ¦ 2 x USB 2.0 ( on keyboard dock )"
+               }
+            ]
+         },
+         {
+            "head":"Processor / Chipset",
+            "items":[
+               {
+                  "name":"64-bit Computing",
+                  "lines":"Yes"
+               },
+               {
+                  "name":"Max Turbo Speed",
+                  "lines":"2.6 GHz"
+               },
+               {
+                  "name":"Number of Cores",
+                  "lines":"Dual-Core"
+               },
+               {
+                  "name":"Features",
+                  "lines":"Intel Turbo Boost Technology 2.0"
+               },
+               {
+                  "name":"Cache",
+                  "lines":"L3 - 3 MB"
+               },
+               {
+                  "name":"CPU",
+                  "lines":"Intel Core i5 (3rd Gen) 3317U / 1.7 GHz"
+               }
+            ]
+         },
+         {
+            "head":"Input",
+            "items":[
+               {
+                  "name":"Type",
+                  "lines":"Keyboard, touchpad, stylus"
+               }
+            ]
+         },
+         {
+            "head":"Memory",
+            "items":[
+               {
+                  "name":"Max RAM Supported",
+                  "lines":"4 GB"
+               },
+               {
+                  "name":"Speed",
+                  "lines":"1600 MHz"
+               },
+               {
+                  "name":"Technology",
+                  "lines":"DDR3 SDRAM"
+               },
+               {
+                  "name":"RAM",
+                  "lines":"4 GB ( provided memory is soldered )"
+               }
+            ]
+         },
+         {
+            "head":"Display",
+            "items":[
+               {
+                  "name":"Widescreen",
+                  "lines":"Yes"
+               },
+               {
+                  "name":"Image Aspect Ratio",
+                  "lines":"16:9"
+               },
+               {
+                  "name":"LCD Backlight Technology",
+                  "lines":"LED backlight"
+               },
+               {
+                  "name":"Type",
+                  "lines":"11.6\""
+               },
+               {
+                  "name":"Resolution",
+                  "lines":"1920 x 1080 ( Full HD )"
+               },
+               {
+                  "name":"Features",
+                  "lines":"Corning Gorilla glass, SuperBright Plus, 10-point multi-touch"
+               },
+               {
+                  "name":"Touchscreen",
+                  "lines":"Yes (10-point multi-touch)"
+               }
+            ]
+         },
+         {
+            "head":"General",
+            "items":[
+               {
+                  "name":"Product Type",
+                  "lines":"Tablet"
+               },
+               {
+                  "name":"Operating System",
+                  "lines":"Windows 8 64-bit Edition"
+               },
+               {
+                  "name":"Mechanical Design",
+                  "lines":"Keyboard dock"
+               }
+            ]
+         },
+         {
+            "head":"Miscellaneous",
+            "items":[
+               {
+                  "name":"Color",
+                  "lines":"Black"
+               },
+               {
+                  "name":"Dockable",
+                  "lines":"Yes"
+               },
+               {
+                  "name":"Security",
+                  "lines":"Trusted Platform Module (TPM 1.2) Security Chip"
+               },
+               {
+                  "name":"Included Accessories",
+                  "lines":"S Pen, power adapter"
+               }
+            ]
+         },
+         {
+            "head":"Software",
+            "items":[
+               {
+                  "name":"Microsoft Office Preloaded",
+                  "lines":"Includes a pre-loaded image of select Microsoft Office 2010 suites. Purchase an Office 2010 Product Key Card or disc to activate preloaded software on this PC."
+               },
+               {
+                  "name":"Software Included",
+                  "lines":"SAMSUNG Support Center, Samsung Recovery Solution, Microsoft Office 2010 Starter, Norton Internet Security 2012 (30 days trial), Samsung Easy Settings, AllShare Play, Skydrive"
+               }
+            ]
+         },
+         {
+            "head":"AC Adapter",
+            "items":[
+               {
+                  "name":"Output",
+                  "lines":"40 Watt"
+               },
+               {
+                  "name":"Input",
+                  "lines":"AC 120/230 V ( 50 - 60 Hz )"
+               }
+            ]
+         }
+      ]
+   }
+}
