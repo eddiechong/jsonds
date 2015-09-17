@@ -12,10 +12,9 @@ Steps to enable DataSource API in PostGreSQL
 1. Create digital content (xml) content table - cds_digcontent_data.sql (schema folder)
 
 2. Create functions (functions folder)
-
-	a. json_append.sql (append json)
-	b. bytea_import.sql (needed to read XML from filesystem into DB)
-	c. dsjson.sql (main stored procedure for generating JSON fr DataSource)
+	* json_append.sql (append json)
+	* bytea_import.sql (needed to read XML from filesystem into DB)
+	* dsjson.sql (main stored procedure for generating JSON fr DataSource)
 
 3. Run the ContentConnector with option to download digital content 
 	Specifically these options must be set to true :
@@ -32,10 +31,13 @@ Steps to enable DataSource API in PostGreSQL
 
 4. After the ContentConnector had finished downloading the required (XML) digital content above, these need to be imported into the "cds_digcontent_data" table. 
 
-	a. Log into postgres  		  # psql -U postgres_user -W -d databasename
-	b. Set output to file 		  # \o dc_import.sql
-	c. Remove header / footer 	# \pset tuples_only
-	d. Generate SQL into file for loading all required XML into the "cds_digcontent_data" table. Run the below SQL. It will generate SQL insert statements inserting the XML into the "cds_digcontent_data" table.
+	* Log into postgres  		  
+```bash
+# psql -U postgres_user -W -d databasename
+```
+	* Set output to file 		  # \o dc_import.sql
+	* Remove header / footer 	# \pset tuples_only
+	* Generate SQL into file for loading all required XML into the "cds_digcontent_data" table. Run the below SQL. It will generate SQL insert statements inserting the XML into the "cds_digcontent_data" table.
 
 ```sql
 	with dc_import as (
@@ -55,9 +57,8 @@ Steps to enable DataSource API in PostGreSQL
 	from dc_import;
 ```
 
-e) Inspect the file 	# head dc_import.sql
-
-Should look something like the below:-
+	* Inspect the file 	# head dc_import.sql
+	Should look something like the below:-
 
 ```sql
 insert into cds_digcontent_data (contentguid, mediatypeid, content) 
