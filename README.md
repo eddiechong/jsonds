@@ -19,13 +19,16 @@ Steps to enable DataSource API in PostGreSQL
 
 3. Run the ContentConnector with option to download digital content 
 	Specifically these options must be set to true :
-	`<MediaType ID="4" Directory="MARKETING_TEXT" Description="Localized marketing text"/>
+
+```xml
+	<MediaType ID="4" Directory="MARKETING_TEXT" Description="Localized marketing text"/>
 	<MediaType ID="5" Directory="KEY_SELLING_POINTS" Description="Key selling points"/>
 	<MediaType ID="10" Directory="WHATS_IN_THE_BOX" Description="What's in the Box"/>
 	<MediaType ID="11" Directory="PRODUCT_DATA_SHEET" Description="Product data sheet"/>
 	<MediaType ID="12" Directory="USER_MANUAL" Description="User manual"/>
 	<MediaType ID="13" Directory="QUICK_START_GUID" Description="Quick start guide"/>
-	<MediaType ID="14" Directory="PRODUCT_FEATURES" Description="Product features"/>`
+	<MediaType ID="14" Directory="PRODUCT_FEATURES" Description="Product features"/>
+```
 
 4. After the ContentConnector had finished downloading the required (XML) digital content above, these need to be imported into the "cds_digcontent_data" table. 
 
