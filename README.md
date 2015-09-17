@@ -74,7 +74,10 @@ insert into cds_digcontent_data (contentguid, mediatypeid, content)
 ```
 	Try & run a couple of statements, make sure they run OK. Then remember to truncate the test data.
 
-f) Import the digital content into the database # psql -U postgres_user -W -d databasename < dc_import.sql
+f) Import the digital content into the database
+```bash
+# psql -U postgres_user -W -d databasename < dc_import.sql
+```
 
 5.. Run the "dsjson" function with a single parameter (product_id)
 ```sql
