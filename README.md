@@ -51,16 +51,12 @@ Steps to enable DataSource API in PostGreSQL
 	e) Inspect the file 	# head dc_import.sql
 	Should look something like the below:-
 
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('F07F1FDD-A7E5-48AA-8C08-480A606C19CD',4,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/F07F1FDD-A7E5-48AA-8C08-480A606C19CD.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('960C7D26-02E7-49D0-B598-98038960F646',14,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/PRODUCT_FEATURES/960C7D26-02E7-49D0-B598-98038960F646.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('1119DDF4-B045-49D0-BCA1-25795B1BAD59',10,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/WHATS_IN_THE_BOX/1119DDF4-B045-49D0-BCA1-25795B1BAD59.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('7D69A559-0644-44A0-BF5C-487A1935F0DA',4,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/7D69A559-0644-44A0-BF5C-487A1935F0DA.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('6A0AA3E4-A899-43EC-AB02-9AB7BC971682',4,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/6A0AA3E4-A899-43EC-AB02-9AB7BC971682.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('77B34CBD-3C3A-49BB-8C89-AFD545CFD7FA',4,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/77B34CBD-3C3A-49BB-8C89-AFD545CFD7FA.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('F2176A6E-F18B-4426-894C-6B0F9E8F14AB',14,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/PRODUCT_FEATURES/F2176A6E-F18B-4426-894C-6B0F9E8F14AB.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('2CB22927-2CF7-4415-B6FC-356E40E56339',4,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/2CB22927-2CF7-4415-B6FC-356E40E56339.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('9B9D8674-5941-4E19-A996-3173A259526C',10,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/WHATS_IN_THE_BOX/9B9D8674-5941-4E19-A996-3173A259526C.xml'), 'utf8')::xml);
-insert into cds_digcontent_data (contentguid, mediatypeid, content) values  ('FBC290D6-7C7B-4D0D-B1E6-D61495DB9CC8',4,convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/FBC290D6-7C7B-4D0D-B1E6-D61495DB9CC8.xml'), 'utf8')::xml);
+	insert into cds_digcontent_data (contentguid, mediatypeid, content) 
+	values  (
+		'F07F1FDD-A7E5-48AA-8C08-480A606C19CD',
+		4,
+		convert_from(bytea_import('/path/to/connector/data/digitalcontent/folder/MARKETING_TEXT/F07F1FDD-A7E5-48AA-8C08-480A606C19CD.xml'), 'utf8')::xml
+		);
 
 	Try & run a couple of statements, make sure they run OK. Then remember to truncate the test data.
 
