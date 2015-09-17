@@ -30,8 +30,11 @@ c) dsjson.sql (main stored procedure for generating JSON fr DataSource)
 4) After the ContentConnector had finished downloading the required (XML) digital content above, these need to be imported into the "cds_digcontent_data" table. 
 
 a) Log into postgres  		  # psql -U postgres_user -W -d databasename
+
 b) Set output to file 		  # \o dc_import.sql
+
 c) Remove header / footer 	# \pset tuples_only
+
 d) Generate SQL into file for loading all required XML into the "cds_digcontent_data" table. Run the below SQL. It will generate SQL insert statements inserting the XML into the "cds_digcontent_data" table.
 
 
@@ -53,6 +56,7 @@ d) Generate SQL into file for loading all required XML into the "cds_digcontent_
 
 
 e) Inspect the file 	# head dc_import.sql
+
 Should look something like the below:-
 
 insert into cds_digcontent_data (contentguid, mediatypeid, content) 
