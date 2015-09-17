@@ -16,8 +16,7 @@ Steps to enable DataSource API in PostGreSQL
 	* bytea_import.sql (needed to read XML from filesystem into DB)
 	* dsjson.sql (main stored procedure for generating JSON fr DataSource)
 
-3. Run the ContentConnector with option to download digital content 
-	Specifically these options must be set to true :
+3. Run the ContentConnector with option to download digital content.Specifically these options must be set to true :
 
 ```xml
 	<MediaType ID="4" Directory="MARKETING_TEXT" Description="Localized marketing text"/>
@@ -77,7 +76,7 @@ insert into cds_digcontent_data (contentguid, mediatypeid, content)
 
 f) Import the digital content into the database # psql -U postgres_user -W -d databasename < dc_import.sql
 
-5) Run the "dsjson" function with a single parameter (product_id)
+5. Run the "dsjson" function with a single parameter (product_id)
 ```sql
 	select dsjson('S11328480');
 ```
